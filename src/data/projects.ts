@@ -38,9 +38,9 @@ export const forOthers: Project[] = [
   {
     slug: "should-i-go",
     name: "should-i-go",
-    tagline: "A calculator I wish I'd had earlier in life.",
+    tagline: "A financial tool I wish I'd had earlier in life.",
     description:
-      "For young people deciding on college and career-changers weighing an occupation. should-i-go pulls median salary data from the BLS, folds in financial-aid assumptions, and grounds the answer in real numbers instead of vibes. Collab project.",
+      "A financial tool to help young people make well-informed choices about higher education and careers. should-i-go pulls median salary data from the BLS, folds in financial-aid assumptions, and grounds those decisions in real numbers instead of vibes. Started by Mike Branconier in 2024; I've been leading it since early 2025.",
     highlight: ["should-i-go"],
     stack: ["Next.js", "TypeScript", "Vercel", "Neon Postgres", "BLS API"],
     links: [
@@ -55,7 +55,7 @@ export const forMe: Project[] = [
   {
     slug: "commander",
     name: "commander",
-    tagline: "Vim-motion TUI for me + a skill for the agents.",
+    tagline: "Vim-motion TUI for humans + a skill for the agents.",
     description:
       "Born from wanting multiple Claude Code sessions running in parallel without mentally tracking which one is on which branch or whose turn it is to hit the containers. Each session lives in its own worktree, but only one branch's code can run in the containers at a time. commander is two surfaces: a vim-motion TUI where I see every session's status and reply to whichever is blocked on my input, and a Claude Code skill that tells the sessions themselves when to take and release the lock.",
     highlight: ["commander"],

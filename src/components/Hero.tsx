@@ -54,8 +54,7 @@ export function Hero() {
             >
               here
             </a>
-            . Below are some of the things I&apos;ve made that I wanted to
-            highlight, for others and for myself.
+            . Below are some of the things I&apos;ve made outside of work.
           </p>
         </motion.div>
       </div>
