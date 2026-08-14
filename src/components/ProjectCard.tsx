@@ -3,6 +3,25 @@
 import { motion } from "framer-motion";
 import type { Project } from "@/data/projects";
 
+function escapeRegex(s: string) {
+  return s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+}
+
+function highlightTerms(text: string, terms: string[] | undefined) {
+  if (!terms || terms.length === 0) return text;
+  const pattern = new RegExp(`(${terms.map(escapeRegex).join("|")})`, "g");
+  const parts = text.split(pattern);
+  return parts.map((part, i) =>
+    terms.includes(part) ? (
+      <span key={i} className="text-[var(--accent)]">
+        {part}
+      </span>
+    ) : (
+      part
+    ),
+  );
+}
+
 export function ProjectCard({ project, index }: { project: Project; index: number }) {
   return (
     <motion.article
@@ -13,8 +32,8 @@ export function ProjectCard({ project, index }: { project: Project; index: numbe
       className="card-hover group rounded-xl border border-[var(--border)] bg-white overflow-hidden flex flex-col"
     >
       <div
-        className={`aspect-[16/10] w-full bg-[var(--bg-elev)] border-b border-[var(--border)] overflow-hidden flex items-center justify-center ${
-          project.imageMode === "contain" ? "p-8" : ""
+        className={`aspect-[16/10] w-full bg-[var(--bg-elev)] border-b border-[var(--border)] overflow-hidden ${
+          project.imageMode === "contain" ? "flex items-center justify-center p-8" : ""
         }`}
       >
         {/* Drop a screenshot at /public/projects/{slug}.png. Until then, a soft placeholder shows. */}
@@ -27,6 +46,9 @@ export function ProjectCard({ project, index }: { project: Project; index: numbe
           className={`h-full w-full ${
             project.imageMode === "contain" ? "object-contain" : "object-cover"
           }`}
+          style={
+            project.imagePosition ? { objectPosition: project.imagePosition } : undefined
+          }
         />
       </div>
       <div className="p-6 md:p-7 flex flex-col flex-1">
@@ -42,7 +64,7 @@ export function ProjectCard({ project, index }: { project: Project; index: numbe
         </div>
         <p className="mt-2 text-sm text-[var(--fg-muted)]">{project.tagline}</p>
         <p className="mt-4 text-[0.95rem] leading-relaxed text-[var(--fg)]/90">
-          {project.description}
+          {highlightTerms(project.description, project.highlight)}
         </p>
         {project.testimonial && (
           <blockquote className="mt-5 border-l-2 border-[var(--accent)] pl-4 py-1 text-[0.95rem] italic text-[var(--fg)]/80">

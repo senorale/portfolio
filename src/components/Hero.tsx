@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export function Hero() {
   return (
-    <section id="top" className="pt-16 md:pt-28 pb-16 md:pb-24">
+    <section id="top" className="pt-8 md:pt-14 pb-4 md:pb-6">
       <div className="grid grid-cols-1 md:grid-cols-[auto_1fr] items-center gap-8 md:gap-12">
         <motion.div
           initial={{ opacity: 0, scale: 0.96 }}
@@ -54,7 +54,8 @@ export function Hero() {
             >
               here
             </a>
-            . Below are the things I&apos;ve built for others and for myself.
+            . Below are some of the things I&apos;ve made that I wanted to
+            highlight, for others and for myself.
           </p>
         </motion.div>
       </div>
