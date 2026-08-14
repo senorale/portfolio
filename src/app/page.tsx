@@ -1,47 +1,39 @@
 import { Nav } from "@/components/Nav";
-import { TerminalHero } from "@/components/TerminalHero";
+import { Hero } from "@/components/Hero";
 import { Section } from "@/components/Section";
 import { ProjectCard } from "@/components/ProjectCard";
 import { Contact } from "@/components/Contact";
-import { workProjects, otherProjects, meProjects } from "@/data/projects";
+import { forOthers, forMe } from "@/data/projects";
 
 export default function Home() {
   return (
-    <div id="top" className="scanlines min-h-screen">
+    <div className="min-h-screen">
       <Nav />
       <main className="mx-auto max-w-5xl px-6 md:px-8">
-        <div className="pt-16 md:pt-24 pb-8">
-          <TerminalHero />
-        </div>
+        <Hero />
 
-        <Section id="work" path="work" title="Built for work">
-          {workProjects.map((p, i) => (
+        <Section
+          id="others"
+          eyebrow="Built for others"
+          title="For others"
+          intro="These are the ways I try to give back. One is for a non-profit I care about. The other is the tool I wish I'd had access to when I was deciding what to do with my life."
+        >
+          {forOthers.map((p, i) => (
             <ProjectCard key={p.slug} project={p} index={i} />
           ))}
         </Section>
 
-        <Section id="others" path="others" title="Built for others">
-          {otherProjects.map((p, i) => (
-            <ProjectCard key={p.slug} project={p} index={i} />
-          ))}
-        </Section>
-
-        <Section id="me" path="me" title="Built for me">
-          {meProjects.map((p, i) => (
+        <Section id="me" eyebrow="Built for me" title="For me">
+          {forMe.map((p, i) => (
             <ProjectCard key={p.slug} project={p} index={i} />
           ))}
         </Section>
 
         <Contact />
 
-        <footer className="pb-10 pt-6 text-xs text-[var(--fg-dim)] border-t border-[var(--border)]/60 flex flex-wrap items-center justify-between gap-2">
-          <span>
-            <span className="text-[var(--accent)]">$</span> exit 0
-          </span>
-          <span>
-            © {new Date().getFullYear()} Alejandro Carvajal · built with
-            Next.js + Framer Motion
-          </span>
+        <footer className="py-8 border-t border-[var(--border)] text-sm text-[var(--fg-muted)] flex flex-wrap items-center justify-between gap-2">
+          <span>© {new Date().getFullYear()} Alejandro Carvajal</span>
+          <span>Built with Next.js.</span>
         </footer>
       </main>
     </div>
