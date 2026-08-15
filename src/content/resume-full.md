@@ -61,7 +61,7 @@ Stack: TypeScript, Ink, Node.js — [GitHub](https://github.com/senorale/command
 Vim-motion TUI replacement for the Docker Desktop click-through. Live status + exposed ports for every container in the current repo, one keystroke for prettified logs.
 Stack: TypeScript, Ink, Node.js — [GitHub](https://github.com/senorale/dockview)
 
-### should-i-go
+### Should I Go?
 Financial tool for young people evaluating higher-ed + career choices. Pulls median salary data from the BLS, folds in financial-aid assumptions, grounds the decision in real numbers. Leading the project since early 2025 (started by Mike Branconier in 2024).
 Stack: Next.js, TypeScript, Vercel, Neon Postgres, BLS API — [Live](https://should-i-go.vercel.app)
 

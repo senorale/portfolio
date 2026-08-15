@@ -18,7 +18,7 @@ export const forOthers: Project[] = [
   {
     slug: "worthmore",
     name: "Project Worthmore",
-    tagline: "Volunteer + client matching for one of their programs.",
+    tagline: "Intake + volunteer + client matching for one of their programs.",
     description:
       "Internal tool for Project Worthmore's Language Partners program, which pairs clients with volunteers who meet regularly so the client can practice English. It used to run on spreadsheets. I built a CRUD app for clients, volunteers, and matches, with CSV exports and matching constraints like drive time, overlapping availability, and shared languages so the coordinator has real signal when pairing.",
     highlight: ["Language Partners", "Project Worthmore"],
@@ -37,11 +37,11 @@ export const forOthers: Project[] = [
   },
   {
     slug: "should-i-go",
-    name: "should-i-go",
+    name: "Should I Go?",
     tagline: "A financial tool I wish I'd had earlier in life.",
     description:
-      "A financial tool to help young people make well-informed choices about higher education and careers. should-i-go pulls median salary data from the BLS, folds in financial-aid assumptions, and grounds those decisions in real numbers instead of vibes. Started by Mike Branconier in 2024; I've been leading it since early 2025.",
-    highlight: ["should-i-go"],
+      "A financial tool to help young people make well-informed choices about higher education and careers. Should I Go? pulls median salary data from the BLS, folds in financial-aid assumptions, and grounds those decisions in real numbers. Started by Mike Branconier in 2024; I've been leading it since early 2025.",
+    highlight: ["Should I Go?"],
     stack: ["Next.js", "TypeScript", "Vercel", "Neon Postgres", "BLS API"],
     links: [
       { label: "Live", href: "https://should-i-go.vercel.app" },
