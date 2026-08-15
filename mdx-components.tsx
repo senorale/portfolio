@@ -12,7 +12,7 @@ export function useMDXComponents(components: MDXComponents = {}): MDXComponents 
       </h1>
     ),
     h2: ({ children }: Common) => (
-      <h2 className="text-xs md:text-sm uppercase tracking-[0.18em] text-[var(--fg-muted)] mt-12 mb-4 font-medium">
+      <h2 className="text-xs md:text-sm uppercase tracking-[0.18em] text-[var(--fg-muted)] mt-12 first:mt-8 mb-4 font-medium">
         {children}
       </h2>
     ),

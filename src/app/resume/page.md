@@ -1,5 +1,3 @@
-[Download PDF](/resume.pdf)
-
 ## PROFESSIONAL SUMMARY
 
 Self-taught Senior Software Engineer, 4 years shipping production code at 8am/MyCase after pivoting from Customer Success at the same company. My operations background gives me strong instincts for product and user signals. Currently doing backend-heavy work in Ruby on Rails, SSO and cross-product identity. Notable work deliverables include Docker containerization of legacy Rails apps, framework upgrades, query and endpoint performance tuning, and internal AI dev tooling adopted across engineering. Full-stack when needed.
@@ -54,4 +52,4 @@ Bachelor of Arts (BA), Communication and Media Studies | 2014 – 2018
 
 ---
 
-## [FEATURED PROJECTS](/#others)
+## [FEATURED PROJECTS](/)
