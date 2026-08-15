@@ -1,0 +1,88 @@
+body {
+  font-family: -apple-system, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #1a1a1a;
+  line-height: 1.5;
+  font-size: 10.5pt;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 22pt;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  margin: 0 0 4pt 0;
+  line-height: 1.15;
+}
+
+/* Contact line right below the name */
+h1 + p {
+  font-size: 9pt;
+  color: #6b6b6b;
+  margin: 0 0 12pt 0;
+}
+
+h2 {
+  font-size: 8pt;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #6b6b6b;
+  margin: 18pt 0 8pt 0;
+  padding-bottom: 3pt;
+  border-bottom: 0.5pt solid #e6e1d7;
+}
+
+h3 {
+  font-size: 12pt;
+  font-weight: 600;
+  margin: 12pt 0 2pt 0;
+}
+
+h4 {
+  font-size: 10.5pt;
+  font-weight: 600;
+  margin: 8pt 0 4pt 0;
+  color: #1a1a1a;
+}
+
+p {
+  margin: 4pt 0;
+}
+
+ul {
+  margin: 4pt 0 8pt 0;
+  padding-left: 18pt;
+}
+
+li {
+  margin: 2pt 0;
+  line-height: 1.45;
+}
+
+li::marker {
+  color: #a19c93;
+}
+
+strong {
+  font-weight: 600;
+  color: #1a1a1a;
+}
+
+em {
+  color: #6b6b6b;
+  font-style: italic;
+}
+
+a {
+  color: #e05b3a;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+hr {
+  display: none;
+}

@@ -47,9 +47,7 @@ export function Hero() {
             , a case-management platform for lawyers. You can read about my
             professional career{" "}
             <a
-              href="/resume.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="/resume/"
               className="text-[var(--accent)] link-grow"
             >
               here
