@@ -52,16 +52,14 @@ export function ProjectCard({ project, index }: { project: Project; index: numbe
         />
       </div>
       <div className="p-6 md:p-7 flex flex-col flex-1">
-        <div className="flex items-start justify-between gap-3">
-          <h3 className="text-xl md:text-2xl tracking-tight font-semibold">
-            {project.name}
-          </h3>
-          {project.note && (
-            <span className="shrink-0 text-[0.65rem] uppercase tracking-wider px-2 py-0.5 rounded-full bg-[var(--bg-elev)] border border-[var(--border)] text-[var(--fg-muted)]">
-              {project.note}
-            </span>
-          )}
-        </div>
+        <h3 className="text-xl md:text-2xl tracking-tight font-semibold">
+          {project.name}
+        </h3>
+        {project.note && (
+          <span className="mt-1.5 self-start text-[0.65rem] uppercase tracking-wider px-2 py-0.5 rounded-full bg-[var(--bg-elev)] border border-[var(--border)] text-[var(--fg-muted)]">
+            {project.note}
+          </span>
+        )}
         <p className="mt-2 text-sm text-[var(--fg-muted)]">{project.tagline}</p>
         <p className="mt-4 text-[0.95rem] leading-relaxed text-[var(--fg)]/90">
           {highlightTerms(project.description, project.highlight)}

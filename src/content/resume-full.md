@@ -6,7 +6,7 @@ Denver, CO | [alecarvajaldev@gmail.com](mailto:alecarvajaldev@gmail.com) | [Link
 
 ## PROFESSIONAL SUMMARY
 
-Self-taught Senior Software Engineer, 4 years shipping production code at 8am/MyCase after pivoting from Customer Success at the same company. My operations background gives me strong instincts for product and user signals. Currently doing backend-heavy work in Ruby on Rails, SSO and cross-product identity. Notable work deliverables include Docker containerization of legacy Rails apps, framework upgrades, query and endpoint performance tuning, and internal AI dev tooling adopted across engineering. Full-stack when needed.
+Self-taught Senior Software Engineer. 4 years building multi-tenant SaaS platform serving law firms nationwide at 8am/MyCase. I pivoted from Customer Success internally, my operations background gives me strong instincts for product and user signals. Currently doing backend-heavy work in Ruby on Rails, SSO and cross-product identity. Notable work deliverables include Docker containerization of the Rails monolith and its supporting services, framework upgrades, query and endpoint performance tuning, and internal AI dev tooling adopted across engineering. Full-stack when needed.
 
 ---
 
@@ -33,8 +33,8 @@ Self-taught Senior Software Engineer, 4 years shipping production code at 8am/My
 
 #### Software Engineer II | Jul 2025 – Jul 2026
 
+- **Monolith + services containerization:** Co-engineered full-stack Docker containerization of the legacy bare-metal/EC2 Rails monolith and its supporting services with a Staff Engineer, enabling DevOps to execute an eventual migration to AWS EKS.
 - **Search modernization:** Contributed to modernizing MyCase's search — refreshed the UI, added highlighted matches, and did my first significant OpenSearch work on the backend.
-- **Monolith containerization:** Co-engineered full-stack Docker containerization of legacy bare-metal/EC2 Rails applications with a Staff Engineer, enabling DevOps to execute an eventual migration to AWS EKS.
 - **Bulk deletion tool:** Built an internal tool for the data migration/onboarding team to run targeted large-scale deletions across multiple imports. Previously they could only undo an entire import; the new tool supports selective removal to enable correct re-imports.
 - **Data Peek (internal tool):** Built Data Peek — surfaces customer data in UI similar to what the user sees so support can diagnose common issues without a screenshare. Cut screenshares out of routine escalations.
 
