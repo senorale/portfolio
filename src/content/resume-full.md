@@ -35,7 +35,7 @@ Self-taught Senior Software Engineer. 4 years building multi-tenant SaaS platfor
 
 - **Monolith + services containerization:** Co-engineered full-stack Docker containerization of the legacy bare-metal/EC2 Rails monolith and its supporting services with a Staff Engineer, enabling DevOps to execute an eventual migration to AWS EKS.
 - **Search modernization:** Contributed to modernizing MyCase's search — refreshed the UI, added highlighted matches, and did my first significant OpenSearch work on the backend.
-- **Bulk deletion tool:** Built an internal tool for the data migration/onboarding team to run targeted large-scale deletions across multiple imports. Previously they could only undo an entire import; the new tool supports selective removal to enable correct re-imports.
+- **Data Migration clean up (internal tool):** Built a bulk-delete tool for the data migration team — previously any customer-reported data issue forced a full rollback of the affected import (or every import if the fix spanned several). Now the team can target the specific records those imports created and remove only what's broken.
 - **Data Peek (internal tool):** Built Data Peek — surfaces customer data in UI similar to what the user sees so support can diagnose common issues without a screenshare. Cut screenshares out of routine escalations.
 
 #### Software Engineer I | Jan 2023 – Jul 2025
