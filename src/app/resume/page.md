@@ -17,25 +17,25 @@ Self-taught Senior Software Engineer. 4 years building multi-tenant SaaS platfor
 
 ## WORK EXPERIENCE
 
-### 8am / MyCase — Remote
+### 8am / MyCase, Remote
 
 #### Senior Software Engineer (SE III) | Jul 2026 – Present
 
 - **Cross-product identity (SSO):** Implementing centralized identity and Single Sign-On across 8am's product suite, syncing user lifecycles across products and Salesforce.
-- **Rails 8 upgrade:** Substantial contributor to the ongoing framework upgrade — working through deprecations, gem incompatibilities, and behavior drift across the monolith.
+- **Rails 8 upgrade:** Substantial contributor to the ongoing framework upgrade: working through deprecations, gem incompatibilities, and behavior drift across the monolith.
 - **Performance:** Track and fix slow queries and endpoints (Datadog → EXPLAIN on prod-clone → benchmark rewrites).
 
 #### Software Engineer II | Jul 2025 – Jul 2026
 
 - **Monolith + services containerization:** Co-engineered full-stack Docker containerization of the legacy bare-metal/EC2 Rails monolith and its supporting services with a Staff Engineer, enabling DevOps to execute an eventual migration to AWS EKS.
-- **Search modernization:** Contributed to modernizing MyCase's search — refreshed the UI, added highlighted matches, and did my first significant OpenSearch work on the backend.
-- **Data Migration clean up (internal tool):** Built a bulk-delete tool for the data migration team — previously any customer-reported data issue forced a full rollback of the affected import (or every import if the fix spanned several). Now the team can target the specific records those imports created and remove only what's broken.
-- **Data Peek (internal tool):** Built Data Peek — surfaces customer data in UI similar to what the user sees so support can diagnose common issues without a screenshare. Cut screenshares out of routine escalations.
+- **Search modernization:** Contributed to modernizing MyCase's search: refreshed the UI, added highlighted matches, and did my first significant OpenSearch work on the backend.
+- **Data Migration clean up (internal tool):** Built a bulk-delete tool for the data migration team. Previously any customer-reported data issue forced a full rollback of the affected import (or every import if the fix spanned several). Now the team can target the specific records those imports created and remove only what's broken.
+- **Data Peek (internal tool):** Surfaces customer data in UI similar to what the user sees so support can diagnose common issues without a screenshare. Cut screenshares out of routine escalations.
 
 #### Software Engineer I | Jan 2023 – Jul 2025
 
-- **Support admin tooling:** Grew the internal support admin from ~5 flows to ~20, turning recurring one-off scripts into self-serve buttons. Multi-day escalation cycles collapsed into in-call fixes support could run themselves — freeing engineering resources.
-- **Access control:** Added tiered permission sets to the internal admin so teams beyond support could adopt it — with more destructive actions gated behind higher access levels.
+- **Support admin tooling:** Grew the internal support admin from ~5 flows to ~20, turning recurring one-off scripts into self-serve buttons. Multi-day escalation cycles collapsed into in-call fixes support could run themselves, freeing engineering resources.
+- **Access control:** Added tiered permission sets to the internal admin so teams beyond support could adopt it, with more destructive actions gated behind higher access levels.
 - **Retention:** Improved the cancellation flow to surface alternate tiers and options to customers considering churn.
 - **Data offboarding:** Built a pipeline to clean ex-customer data from the database after cancellation.
 
@@ -47,7 +47,7 @@ Self-taught Senior Software Engineer. 4 years building multi-tenant SaaS platfor
 
 ## EDUCATION
 
-Westmont College — Santa Barbara, CA
+Westmont College, Santa Barbara, CA
 Bachelor of Arts (BA), Communication and Media Studies | 2014 – 2018
 
 ---
