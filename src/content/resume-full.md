@@ -45,7 +45,7 @@ Self-taught Senior Software Engineer. 4 years building multi-tenant SaaS platfor
 - **Retention:** Improved the cancellation flow to surface alternate tiers and options to customers considering churn.
 - **Data offboarding:** Built a pipeline to clean ex-customer data from the database after cancellation.
 
-#### Sr. Customer Success Specialist / CSM / Associate CSM | Nov 2020 – Jan 2023
+#### Sr. CSM / CSM / Associate CSM | Nov 2020 – Jan 2023
 
 - Learned the product and the customer base deeply. Served as the CS team's liaison to engineering on software bugs, which is how I got exposure to the codebase and eventually the pivot into SE.
 
