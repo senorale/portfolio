@@ -1,20 +1,3 @@
-## PROFESSIONAL SUMMARY
-
-Self-taught Senior Software Engineer. 4 years building multi-tenant SaaS platform serving law firms nationwide at 8am/MyCase. I pivoted from Customer Success internally, my operations background gives me strong instincts for product and user signals. Currently doing backend-heavy work in Ruby on Rails, SSO and cross-product identity. Notable work deliverables include Docker containerization of the Rails monolith and its supporting services, framework upgrades, query and endpoint performance tuning, and internal AI dev tooling adopted across engineering. Full-stack when needed.
-
----
-
-## TECHNICAL SKILLS
-
-- **Languages:** Ruby, TypeScript, JavaScript
-- **Backend:** Ruby on Rails, REST APIs, SSO / OAuth
-- **Databases:** MySQL, PostgreSQL, OpenSearch
-- **Frontend:** React, Next.js
-- **Infra & tooling:** Docker, AWS, Datadog, Git
-- **AI dev tooling:** Claude Code skills, custom CLI/TUI workflow automation
-
----
-
 ## WORK EXPERIENCE
 
 ### 8am / MyCase, Remote
@@ -44,12 +27,3 @@ Self-taught Senior Software Engineer. 4 years building multi-tenant SaaS platfor
 - Learned the product and the customer base deeply. Served as the CS team's liaison to engineering on software bugs, which is how I got exposure to the codebase and eventually the pivot into SE.
 
 ---
-
-## EDUCATION
-
-Westmont College, Santa Barbara, CA
-Bachelor of Arts (BA), Communication and Media Studies | 2014 – 2018
-
----
-
-## [FEATURED PROJECTS](/)

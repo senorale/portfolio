@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "resume:pdf": "pandoc src/content/resume-full.md --pdf-engine=wkhtmltopdf --css=scripts/resume.css -V margin-top=14mm -V margin-bottom=14mm -V margin-left=16mm -V margin-right=16mm -o public/resume.pdf"
+    "resume:pdf": "pandoc src/content/resume/*.md --pdf-engine=wkhtmltopdf --css=scripts/resume.css -V margin-top=14mm -V margin-bottom=14mm -V margin-left=16mm -V margin-right=16mm -o public/resume.pdf"
   },
   "dependencies": {
     "@mdx-js/loader": "^3.1.1",
