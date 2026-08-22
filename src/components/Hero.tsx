@@ -35,7 +35,7 @@ export function Hero() {
             </span>
           </h1>
           <p className="mt-6 text-lg md:text-xl text-[var(--fg-muted)] max-w-2xl leading-relaxed">
-            Currently at{" "}
+            I love building software users rely on and removing friction from how they use it. With a background in Customer Success, I hold strong opinions about what to build and why, not just how. Currently at{" "}
             <a
               href="https://www.mycase.com"
               target="_blank"

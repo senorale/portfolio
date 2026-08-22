@@ -36,6 +36,9 @@ yarn-error.log*
 # vercel
 .vercel
 
+# job-specific resumes
+/src/content/resume-jobs/
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts
