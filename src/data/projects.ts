@@ -44,8 +44,8 @@ export const forOthers: Project[] = [
     highlight: ["Should I Go?"],
     stack: ["Next.js", "TypeScript", "Vercel", "Neon Postgres", "BLS API"],
     links: [
-      { label: "Live", href: "https://should-i-go.vercel.app" },
-      { label: "GitHub", href: "https://github.com/mikebranc/should-i-go" },
+      { label: "Live", href: "https://should-i-go-production.up.railway.app/" },
+      { label: "GitHub", href: "https://github.com/senorale/should-i-go" },
     ],
     image: "/projects/should-i-go.png",
   },
