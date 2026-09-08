@@ -6,19 +6,18 @@
 
 - **Cross-product identity (SSO):** Implementing centralized identity and Single Sign-On across 8am's product suite, syncing user lifecycles across products and Salesforce.
 - **Rails 8 upgrade:** Substantial contributor to the ongoing framework upgrade: working through deprecations, gem incompatibilities, and behavior drift across the monolith.
-- **Performance:** Track and fix slow queries and endpoints (Datadog → EXPLAIN on prod-clone → benchmark rewrites).
 
 #### Software Engineer II | Jul 2025 – Jul 2026
 
-- **Monolith + services containerization:** Co-engineered full-stack Docker containerization of the legacy bare-metal/EC2 Rails monolith and its supporting services with a Staff Engineer, enabling DevOps to execute an eventual migration to AWS EKS.
-- **Search modernization:** Contributed to modernizing MyCase's search: refreshed the UI, added highlighted matches, and did my first significant OpenSearch work on the backend.
-- **Data Migration clean up (internal tool):** Built a bulk-delete tool for the data migration team. Previously any customer-reported data issue forced a full rollback of the affected import (or every import if the fix spanned several). Now the team can target the specific records those imports created and remove only what's broken.
-- **Data Peek (internal tool):** Surfaces customer data in UI similar to what the user sees so support can diagnose common issues without a screenshare. Cut screenshares out of routine escalations.
+- **Monolith + services containerization:** Co-engineered full-stack Docker containerization of the MyCase core application and its surrounding services with a Staff Engineer, facilitating an eventual migration to AWS EKS while improving local dev experience and turning new developer setup from days to hours.
+- **Claude Code skills:** Built Claude Code skills adopted across the engineering organization, covering new hire onboarding, local environment troubleshooting, flaky test remediation, and local PR-agent-style review to catch issues before pushing.
+- **Data visibility + correction (internal tools):** Built a data visibility tool that surfaces customer in-app data so support reps can see what the customer sees without a screenshare, and a data correction tool for the onboarding team to fix imported data per row instead of walking back entire imports.
+- **Search modernization:** Added highlighted search terms in results and wrote OpenSearch-level queries to enable per-case searching.
 
 #### Software Engineer I | Jan 2023 – Jul 2025
 
-- **Support admin tooling:** Grew the internal support admin from ~5 flows to ~20, turning recurring one-off scripts into self-serve buttons. Multi-day escalation cycles collapsed into in-call fixes support could run themselves, freeing engineering resources.
-- **Access control:** Added tiered permission sets to the internal admin so teams beyond support could adopt it, with more destructive actions gated behind higher access levels.
+- **Support admin tooling:** Roadmap set jointly by Sales, Support, and Onboarding stakeholders. Grew the internal support admin from ~5 flows to over 20, turning ticket turnaround from days to same-call resolution and freeing engineering from routine escalation cycles.
+- **Access control:** Added tiered permission sets so the internal admin could be adopted by multiple teams beyond support, with destructive actions gated behind higher access levels.
 - **Retention:** Improved the cancellation flow to surface alternate tiers and options to customers considering churn.
 - **Data offboarding:** Built a pipeline to clean ex-customer data from the database after cancellation.
 
