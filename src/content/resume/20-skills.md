@@ -5,6 +5,6 @@
 - **Databases:** MySQL, PostgreSQL, OpenSearch
 - **Frontend:** React, Next.js
 - **Infra & tooling:** Docker, AWS, Datadog, Git
-- **AI dev tooling:** Claude Code skills, custom CLI/TUI workflow automation
+- **AI dev tooling:** Claude Code skills, custom TUI for running parallel AI coding sessions with worktree isolation
 
 ---

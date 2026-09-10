@@ -16,7 +16,7 @@
 
 #### Software Engineer I | Jan 2023 – Jul 2025
 
-- **Support admin tooling:** Roadmap built in direct conversation with Sales, Support, and Onboarding leadership — translating user pain into prioritized engineering work without a product manager in the loop. Grew the internal support admin from ~5 flows to over 20, turning ticket turnaround from days to same-call resolution and freeing engineering from routine escalation cycles.
+- **Support admin tooling:** Roadmap built in direct conversation with Sales, Support, and Onboarding leadership — translating user pain into prioritized engineering work without a product manager in the loop. Grew the internal support admin from a handful of flows to everything the team needs to resolve most issues while still on the phone, freeing engineering from routine escalation cycles.
 - **Access control:** Added tiered permission sets so the internal admin could be adopted by multiple teams beyond support, with destructive actions gated behind higher access levels.
 - **Retention:** Improved the cancellation flow to surface alternate tiers and options to customers considering churn.
 - **Data offboarding:** Built a pipeline to clean ex-customer data from the database after cancellation.
