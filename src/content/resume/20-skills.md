@@ -1,7 +1,7 @@
 ## TECHNICAL SKILLS
 
 - **Languages:** Ruby, TypeScript, JavaScript
-- **Backend:** Ruby on Rails, REST APIs, SSO / OAuth
+- **Backend:** Ruby on Rails, Node.js, REST APIs, SSO / OAuth
 - **Databases:** MySQL, PostgreSQL, OpenSearch
 - **Frontend:** React, Next.js
 - **Infra & tooling:** Docker, AWS, Datadog, Git

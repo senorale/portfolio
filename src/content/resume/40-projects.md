@@ -14,7 +14,7 @@ Stack: Next.js, TypeScript, Vercel, Neon Postgres, BLS API. [Live](https://shoul
 
 ### Project Worthmore (Volunteer Lead Software Engineer)
 Built and maintain the internal CRUD app for Worthmore's Language Partners program (pairs clients with volunteers for weekly English practice). Replaced a spreadsheet workflow with real matching constraints: drive-time calc, overlapping availability, shared languages. CSV exports for coordinators.
-Stack: Next.js, TypeScript, Vercel, Neon Postgres, AWS. [projectworthmore.org](https://projectworthmore.org)
+Stack: Next.js, TypeScript, Node.js, Vercel, Neon Postgres, AWS. [projectworthmore.org](https://projectworthmore.org)
 _"The app has been working great… my favorite feature will forever be the drive time calculation!" (Program coordinator)_
 
 ---

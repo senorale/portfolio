@@ -22,7 +22,7 @@ export const forOthers: Project[] = [
     description:
       "Internal tool for Project Worthmore's Language Partners program, which pairs clients with volunteers who meet regularly so the client can practice English. It used to run on spreadsheets. I built a CRUD app for clients, volunteers, and matches, with CSV exports and matching constraints like drive time, overlapping availability, and shared languages so the coordinator has real signal when pairing.",
     highlight: ["Language Partners", "Project Worthmore"],
-    stack: ["Next.js", "TypeScript", "Vercel", "Neon Postgres", "AWS"],
+    stack: ["Next.js", "TypeScript", "Node.js", "Vercel", "Neon Postgres", "AWS"],
     links: [
       { label: "Project Worthmore", href: "https://projectworthmore.org" },
     ],
