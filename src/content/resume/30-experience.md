@@ -6,7 +6,7 @@
 
 - **Cross-product identity (SSO):** Implementing centralized identity and Single Sign-On across 8am's product suite, syncing user lifecycles across products and Salesforce.
 
-#### Software Engineer II | Jul 2025 – Jul 2026
+#### Software Engineer II, Platform Team | Jul 2025 – Jul 2026
 
 - **Monolith + services containerization:** Co-engineered full-stack Docker containerization of the MyCase core application and its surrounding services with a Staff Engineer, facilitating an eventual migration to AWS EKS while improving local dev experience and turning new developer setup from days to hours.
 - **Claude Code skills:** Built Claude Code skills adopted across the engineering organization, covering new hire onboarding, local environment troubleshooting, flaky test remediation, and local PR-agent-style review to catch issues before pushing.
