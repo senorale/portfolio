@@ -12,7 +12,7 @@
 - **Monolith + services containerization:** Co-engineered full-stack Docker containerization of the MyCase core application and its surrounding services with a Staff Engineer, facilitating an eventual migration to AWS EKS while improving local dev experience and turning new developer setup from days to hours.
 - **Claude Code skills:** Built Claude Code skills adopted across the engineering organization, covering new hire onboarding, local environment troubleshooting, flaky test remediation, and local PR-agent-style review to catch issues before pushing.
 - **Data visibility + correction (internal tools):** Built a data visibility tool that surfaces customer in-app data so support reps can see what the customer sees without a screenshare, and a data correction tool for the onboarding team to fix imported data per row instead of walking back entire imports.
-- **Search modernization:** Added highlighted search terms in results and wrote OpenSearch-level queries to enable per-case searching.
+- **Search modernization:** Added highlighted search terms in results and wrote OpenSearch queries (document-based NoSQL store) to enable per-case searching.
 
 #### Software Engineer I | Jan 2023 – Jul 2025
 
