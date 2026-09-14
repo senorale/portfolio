@@ -2,10 +2,9 @@
 
 ### 8am / MyCase, Remote
 
-#### Senior Software Engineer (SE III) | Jul 2026 – Present
+#### Senior Software Engineer (SE III), Platform Team | Jul 2026 – Present
 
 - **Cross-product identity (SSO):** Implementing centralized identity and Single Sign-On across 8am's product suite, syncing user lifecycles across products and Salesforce.
-- **Rails 8 upgrade:** Substantial contributor to the ongoing framework upgrade: working through deprecations, gem incompatibilities, and behavior drift across the monolith.
 
 #### Software Engineer II | Jul 2025 – Jul 2026
 
